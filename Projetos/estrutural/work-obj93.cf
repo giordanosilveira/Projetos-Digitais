@@ -1,0 +1,44 @@
+v 4
+file . "tb_estrut.vhd" "205480d0ad77d3cf47acf8a9211e9c5572f6e450" "20190905170756.172":
+  entity tb_estrut at 8( 430) + 0 on 47;
+  architecture tb of tb_estrut at 14( 532) + 0 on 48;
+  configuration cfg_tb at 373( 14622) + 0 on 49;
+file . "aux.vhd" "80b8873001f374ee50452bc90afb5ce5a54cb3e6" "20190905170756.068":
+  entity inv at 16( 654) + 0 on 13;
+  architecture comport of inv at 23( 741) + 0 on 14;
+  entity nand2 at 34( 1065) + 0 on 15;
+  architecture comport of nand2 at 41( 1160) + 0 on 16;
+  entity nand3 at 51( 1492) + 0 on 17;
+  architecture comport of nand3 at 58( 1591) + 0 on 18;
+  entity nor2 at 70( 1930) + 0 on 19;
+  architecture comport of nor2 at 77( 2023) + 0 on 20;
+  entity nor3 at 86( 2350) + 0 on 21;
+  architecture comport of nor3 at 93( 2447) + 0 on 22;
+  entity xor2 at 105( 2783) + 0 on 23;
+  architecture comport of xor2 at 112( 2876) + 0 on 24;
+  entity xor3 at 121( 3200) + 0 on 25;
+  architecture comport of xor3 at 129( 3298) + 0 on 26;
+file . "packageWires.vhd" "1721df653d6f86957e7ee4a009cf7e113ad689ac" "20190905170756.035":
+  package p_wires at 5( 213) + 0 on 11 body;
+  package body p_wires at 25( 938) + 0 on 12;
+file . "estrut.vhd" "09b908b9a7dfb1fda75bf8d9e2ffe71119d86b1c" "20190905170756.108":
+  entity mux2 at 9( 364) + 0 on 27;
+  architecture estrut of mux2 at 17( 585) + 0 on 28;
+  entity mux4 at 44( 1347) + 0 on 29;
+  architecture estrut of mux4 at 52( 1579) + 0 on 30;
+  entity mux8 at 72( 2159) + 0 on 31;
+  architecture estrut of mux8 at 80( 2390) + 0 on 32;
+  entity mux8vet at 106( 3107) + 0 on 33;
+  architecture estrut of mux8vet at 114( 3304) + 0 on 34;
+  entity demux2 at 142( 4042) + 0 on 35;
+  architecture estrut of demux2 at 150( 4162) + 0 on 36;
+  entity demux4 at 176( 4902) + 0 on 37;
+  architecture estrut of demux4 at 184( 5034) + 0 on 38;
+  entity demux8 at 207( 5753) + 0 on 39;
+  architecture estrut of demux8 at 215( 5909) + 0 on 40;
+  entity decod2 at 242( 6733) + 0 on 41;
+  architecture estrut of decod2 at 249( 6831) + 0 on 42;
+  entity decod4 at 271( 7403) + 0 on 43;
+  architecture estrut of decod4 at 278( 7509) + 0 on 44;
+  entity decod8 at 307( 8294) + 0 on 45;
+  architecture estrut of decod8 at 314( 8416) + 0 on 46;

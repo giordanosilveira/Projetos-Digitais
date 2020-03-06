@@ -1,0 +1,37 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Tue Oct  1 17:11:52 2019
+[*]
+[dumpfile] "/home/bcc/ghs19/processos/v_me.vcd"
+[dumpfile_mtime] "Tue Oct  1 17:06:12 2019"
+[dumpfile_size] 21574
+[savefile] "/home/bcc/ghs19/processos/v.sav"
+[timestart] 5790000
+[size] 1600 832
+[pos] 103 0
+*-22.000000 5510000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 202
+[signals_width] 192
+[sst_expanded] 1
+[sst_vpaned_height] 228
+@200
+-
+-  estado da ME
+@c00200
+-dbg_st
+@1401200
+-group_end
+@200
+-
+@28
+tb_me.clk
+@29
+tb_me.entr
+@420
+tb_me.dbg_st
+@28
+tb_me.esperada
+tb_me.found
+tb_me.reset
+[pattern_trace] 1
+[pattern_trace] 0
